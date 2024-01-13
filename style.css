@@ -1,0 +1,29 @@
+body {
+  background-color: #693ea9;
+  color: #fffffffa;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.movies, .shows {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.movies img, .shows img {
+  width: 25%;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+}
